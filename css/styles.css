@@ -1,0 +1,83 @@
+/* box-model */
+*, 
+*:before,
+*:after {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+.body {
+    margin: 0 auto;
+}
+
+.
+/* font face with */
+@font-face {
+    font-family: 'gotham-bold';
+    src: url('../fonts/gothambold/gothambold1.eot');
+    src: local('gotham-bold'), url('../fonts/gothambold/gothambold1.woff') format('woff');
+  }
+  
+  @font-face {
+    font-family: 'gotham-rounded-light';
+    src: url('../fonts/Gotham-Rounded-Light/GothamRoundedLight.eot');
+    src: local('gotham-rounded-light'), url('../fonts/Gotham-Rounded-Light/GothamRoundedLight.woff') format('woff'), url('../fonts/Gotham-Rounded-Light/GothamRoundedLight.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Helvetica-Neue-Light';
+    src: url('../fonts/Helvetica-Neue-Light/HelveticaNeueLight.eot');
+    src: local('Helvetica Neue Light'), url('../fonts/Helvetica-Neue-Light/HelveticaNeueLight.woff') format('woff'), url('../fonts/Helvetica-Neue-Light/HelveticaNeueLight.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Helvetica-Neue-Medium';
+    src: url('../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.eot');
+    src: local('Helvetica Neue Medium'), url('../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.woff') format('woff'), url('../fonts/Helvetica-Neue-Medium/HelveticaNeueMedium.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Helvetica-Neue-Bold';
+    src: url('../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.eot');
+    src: local('Helvetica-Neue-Bold'), url('../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.woff') format('woff'), url('../fonts/Helvetica-Neue-Bold/HelveticaNeueBold.woff2') format('woff2');
+  }
+
+  /* customized color */
+
+  :root {
+   --redd: #d35266;
+   --ash: #888;
+   --blacky: #383838; 
+  }
+
+  /*  */
+
+
+  /* header section styling */
+  .header-container {
+      display: flex;
+      width: 100%;
+  }
+
+  .nav-container {
+      background-color: var(--blacky);
+      display: flex;
+      width: 100%; 
+  }
+
+  .ul-list{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .right-lst {
+      display: flex;
+      align-self: end;
+  }
+
+  .border-test{
+     border: 2px solid red;
+  }
+  /*  */
