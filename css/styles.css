@@ -86,11 +86,13 @@
       display: flex;
       width: 100%; 
       justify-content: space-around;
+      flex-wrap: wrap;
   }
 
   .ul-list{
       display: flex;
       justify-content: space-around;
+      flex-wrap: wrap;
   }
 
   .right-lst {
