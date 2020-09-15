@@ -78,6 +78,7 @@
   /* header section styling */
   .header-container {
       display: flex;
+      flex-direction: column;
       width: 100%;
   }
 
