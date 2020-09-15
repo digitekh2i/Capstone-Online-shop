@@ -52,9 +52,29 @@
    --blacky: #383838; 
   }
 
-  /*  */
+  /* custom classes */
+  .nav-links {
+    font-size: 18px;
+    margin: 6px 30px;
+    padding: 5px;
+    color: var(--ash);
+    font-weight: lighter;
+  }
 
+  .avatar-icon{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 6px 15px;
+    padding: 5px;
+    color: #fff;
+  }
 
+  .logo{
+    /* width: 10px; */
+    height: 18px;
+    margin: 1px 5px;
+    padding-top: 1px;
+  }
   /* header section styling */
   .header-container {
       display: flex;
@@ -65,6 +85,7 @@
       background-color: var(--blacky);
       display: flex;
       width: 100%; 
+      justify-content: space-around;
   }
 
   .ul-list{
