@@ -104,4 +104,37 @@
   .border-test{
      border: 2px solid red;
   }
-  /*  */
+
+  /* form styling */
+
+  .header-form {
+    background-color: var(--redd);
+    text-align: center;
+  }
+
+  .cp-name {
+    color: #fff;
+    font-size: 45px;
+    padding: 8px;
+    margin: 10px;
+  }
+
+  .header-form > p {
+    font-size: 16px;
+    color: #fff;
+    padding: 3px;
+    margin-bottom: 25px;
+  }
+
+  .top-form > * {
+    padding: 10px;
+    border: 0;
+    background: #fff;
+    font-size: 20px;
+    outline: 0;
+    border-radius: 0;
+    border-right: 1px solid rgba(0,0,0,0.2);
+    -webkit-appearance: none;
+
+  }
+
