@@ -105,7 +105,7 @@
      border: 2px solid red;
   }
 
-  /* form styling */
+  /* header-form styling */
 
   .header-form {
     background-color: var(--redd);
@@ -172,5 +172,14 @@
     color: var(--ash);
   }
 
+  /* main-section styling */
+
+  .main-container {
+    display: flex;
+  }
+
+  .lates-add {
+    
+  }
 
 
