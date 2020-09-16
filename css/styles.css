@@ -110,6 +110,7 @@
   .header-form {
     background-color: var(--redd);
     text-align: center;
+    display: ;
   }
 
   .cp-name {
@@ -128,6 +129,9 @@
 
   .top-form {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
   }
 
   .drp-dwn-lst-style {
