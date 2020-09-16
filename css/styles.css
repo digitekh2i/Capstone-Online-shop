@@ -133,17 +133,18 @@
   .drp-dwn-lst-style {
     color: var(--redd);
     font-weight: lighter;
+    width: 150px;
   }
 
   .top-form > * {
     padding: 10px;
     border: 0;
     background: #fff;
-    font-size: 22px;
     outline: 0;
     border-radius: 0;
     border-right: 1px solid rgba(0,0,0,0.2);
     -webkit-appearance: none;
+    margin-bottom: 30px;
   }
 
   .form-wrapper {
@@ -151,4 +152,21 @@
     justify-content: center;
     align-content: center;
   }
+
+  .form-input {
+   width: 400px;
+   font-size: 18px;
+   text-align: center;
+   font-weight: 100;
+  }
+
+  .form-button {
+    width: 180px;
+    margin-left: 7px;
+    font-size: 13px;
+    background-color: var(--blacky);
+    color: var(--ash);
+  }
+
+
 
