@@ -14,7 +14,7 @@
 
 .
 /* font face with */
-@font-face {
+  @font-face {
     font-family: 'gotham-bold';
     src: url('../fonts/gothambold/gothambold1.eot');
     src: local('gotham-bold'), url('../fonts/gothambold/gothambold1.woff') format('woff');
@@ -69,12 +69,88 @@
     color: #fff;
   }
 
+  .company-font {
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding-left: 5px;
+    position: relative;
+    bottom: 2px;
+    font-family: 'gotham-rounded-light';
+    
+  }
+  
+  /* customized colors */
+
+  .color-redd {
+    color: var(--redd);
+  }
+
+  .color-ash {
+    color: var(--ash);
+  }
+
+  .color-blacky {
+    color: var(--blacky);
+  }
+
+  .color-whity {
+    color: #fff;
+  }
+
+  .space-nav {
+    padding-left: 5px;
+    display: inline-block;
+    position: relative;
+    font-family: 'gotham-rounded-light';
+  }
+
+  .post-add {
+    background-color: var(--redd);
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'gotham-rounded-light';
+    border-radius: 3px;
+  }
+
+  .circle {
+    border-radius: 50%;
+  }
+
+  .background-red{
+    background-color: var(--redd);
+
+  }
+
+  #tiny-mail {
+    font-size: 15px;
+  }
+
+  .tiny-font {
+    font-size: 15px;
+  }
+
+  .foreground-avatar{
+    z-index: 50;
+   position: relative;
+   right: 12px;
+   bottom: 7px;
+  }
+
+  .user-image {
+    width: 22px;
+  }
+
   .logo{
     /* width: 10px; */
     height: 18px;
     margin: 1px 5px;
     padding-top: 1px;
   }
+
   /* header section styling */
   .header-container {
       display: flex;
