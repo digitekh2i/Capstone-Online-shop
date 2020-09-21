@@ -81,7 +81,7 @@
     
   }
   
-  /* customized colors */
+  /* customized text-colors  */
 
   .color-redd {
     color: var(--redd);
@@ -97,6 +97,24 @@
 
   .color-whity {
     color: #fff;
+  }
+
+  /* customized background */
+
+  .background-redd {
+    background-color: var(--redd);
+  }
+
+  .background-ash {
+    background-color: var(--ash);
+  }
+
+  .background-blacky {
+    background-color: var(--blacky);
+  }
+
+  .background-white {
+    background-color: #fff;
   }
 
   /* customized classes */
@@ -116,11 +134,6 @@
     font-weight: bold;
     font-family: 'gotham-rounded-light';
     border-radius: 3px;
-  }
-
-  .background-red{
-    background-color: var(--redd);
-
   }
 
   #tiny-mail {
@@ -152,6 +165,11 @@
     background-color: #fff;
   }
 
+  .hot-add-arrow-left,
+  .hot-add-arrow-right {
+    width: 4%;
+  }
+
   .circle {
     border-radius: 50%;
   }
@@ -166,10 +184,14 @@
     margin-right: auto;
   }
 
-   /* customized */
+   /* customized fonts */
 
    .helv-light {
      font-family: 'Helvetica-Neue-Light';
+   }
+
+   .helv-neu-light {
+  font-family: 'Helvetica-Neue-Medium';
    }
 
   .logo{
@@ -307,6 +329,57 @@
     width: 5%;
   }
 
+  .hot-add-btns {
+   width: 22%;
+   height: 10%;
+   position: relative;
+   z-index: 50;
+   left: 315px;
+   text-align: center;
+  }
+
+  .add-margin {
+    margin: 3px;
+  }
+
+  .add-pading {   
+    padding: 3px;
+  }
+
+  .hot-add-article {
+    width: 50%;
+    padding: 0 0 0 1rem;
+  }
+
+  .hot-ad-cred {
+    margin: auto 0;
+  }
+
+  .hot-add-cred-btns {
+    margin: auto 0 0 0;
+  }
+
+  .hot-add-cred-btns button:first-child {
+    width: 100px;
+    padding: 0.7rem 0;
+    border-right: 1px solid #000;
+  }
+
+  .generic-btn {
+    padding: 0.5rem;
+    font-size: 15px;
+    border-radius: 2px;
+  }
+
+  .generic-hover:hover {
+    color: var(--redd);
+    padding: 0.2rem;
+    border: 1px solid var(--redd);
+    border-radius: 4px;
+    transform: scale(1.3);
+    transition: all 0.2 linear;
+  }
+
   /* all customized flex */
 
   .flex-display {
@@ -319,6 +392,14 @@
 
   .content-justify-center {
     justify-content: center;
+  }
+
+  .content-justify-start {
+    justify-content: flex-start;
+  }
+
+  .content-justify-end {
+    justify-content: flex-end;
   }
 
   .item-align-center {
