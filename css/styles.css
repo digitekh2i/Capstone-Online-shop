@@ -380,6 +380,16 @@
     transition: all 0.2 linear;
   }
 
+  /* main row styling 1 */
+
+  .generic-row {
+    width: 65%;
+  }
+
+  .title-row * {
+    margin: 0 1.5rem 0 0;
+  }
+
   /* all customized flex */
 
   .flex-display {
