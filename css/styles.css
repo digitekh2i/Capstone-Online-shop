@@ -148,6 +148,10 @@
     font-size: 15px;
   }
 
+  .mid-font {
+    font-size: 18px;
+  }
+
   .foreground-avatar{
     z-index: 50;
    position: relative;
@@ -255,7 +259,16 @@
      border: 2px solid red;
   }
 
+  .header-search-txt h1 {
+    padding: 0.5rem 0;
+    font-size: 50px;
+  }
+
   /* header-form styling */
+
+  .search-margin {
+    margin-left: 345px;
+  }
 
   .header-form {
     background-color: var(--redd);
@@ -560,6 +573,10 @@
 
   .item-align-center {
     align-items: center;
+  }
+
+  .item-align-start {
+    align-items: flex-start;
   }
 
   .self-align-center {
