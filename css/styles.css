@@ -628,17 +628,17 @@
   /* footer styling */
 
   .footer-container {
-    width: 85%;
+    width: 90%;
     padding: 2rem 0 0 0;
   }
 
   .footer {
     margin: 0 0 1rem 0;
     border-top: 2px solid var(--ash);
+    border-bottom: 2px solid var(--ash);
   }
 
   .footer-brands-main {
-    width: 25%;
     padding: 0 1rem 2rem 0;
     text-align: justify;
     text-justify: auto;
@@ -660,7 +660,7 @@
 
   .footer-main-categories,
   .footer-main-nav {
-    width: 20%;
+    width: auto;
   }
 
   .footer-main-btn {
@@ -681,7 +681,6 @@
 
   .footerIcons {
     margin: 1rem 0 0 0;
-    width: 50%;
   }
 
   .the-footer {
