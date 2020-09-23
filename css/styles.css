@@ -425,12 +425,12 @@
   }
 
   .items {
-    width: 220px;
+    width: 210px;
     height: auto;
   }
 
   .items-text {
-    padding: 0 0 6rem;
+    padding: 0 0 1rem;
   }
 
   .item-text p {
@@ -460,6 +460,10 @@
   .imgage-tgl .fa{
     font-size: 24px;
     padding: 0.4rem 0.8rem;
+  }
+
+  .responsive-img {
+    max-width: auto;
   }
 
   .item-row-generic-hover:hover *,
@@ -499,7 +503,7 @@
   }
 
   .item-img {
-    width: 25%;
+    height: 100%;
   }
 
   .width-25 {
@@ -533,6 +537,10 @@
 
   .font-size-15 {
     font-size: 15px;
+  }
+
+  .img-height-fix {
+    height: 33vh;
   }
 
   /* position classes */
