@@ -273,7 +273,6 @@
   .header-form {
     background-color: var(--redd);
     text-align: center;
-    display: ;
   }
 
   .cp-name {
@@ -402,12 +401,6 @@
     border-right: 1px solid #000;
   }
 
-  .generic-btn {
-    padding: 0.5rem;
-    font-size: 15px;
-    border-radius: 2px;
-  }
-
   .generic-hover:hover {
     color: var(--redd);
     padding: 0.2rem;
@@ -456,6 +449,17 @@
 
   .item-row-toggle:checked {
     display: flex;
+  }
+
+  .imgage-tgl {
+    bottom: 2px;
+    right: 1px;
+    width: 90px;
+  }
+
+  .imgage-tgl .fa{
+    font-size: 24px;
+    padding: 0.4rem 0.8rem;
   }
 
   .item-row-generic-hover:hover *,
@@ -583,8 +587,26 @@
     align-self: center;
   }
 
+  .self-align-start {
+    align-self: start;
+  }
+
   .wrap {
     flex-wrap: wrap;
+  }
+
+  /* display properties */
+   
+  .d-block {
+    display: block;
+  }
+
+  .d-inline {
+    display: inline;
+  }
+
+  .d-inline-block {
+    display: inline-block;
   }
 
   /* footer styling */
@@ -672,7 +694,18 @@
     display: none;
   }
 
+  .generic-btn {
+    padding: 0.5rem;
+    font-size: 15px;
+    border-radius: 2px;
+  }
+
   .search-hover:hover .dial-btn {
     display: block;
   }
 
+  /* text positioning */
+ 
+  .text-center {
+    text-align: center;
+  }
