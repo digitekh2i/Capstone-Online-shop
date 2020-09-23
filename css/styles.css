@@ -190,6 +190,10 @@
 
    /* customized fonts */
 
+   .gottham-bold {
+     font-family: 'gotham-rounded-light';
+   }
+
    .helv-light {
      font-family: 'Helvetica-Neue-Light';
    }
@@ -204,6 +208,10 @@
 
    .helv-nue-bold {
      font-family: 'Helvetica-Neue-Bold';
+   }
+
+   .helv-neue-mid {
+     font-family: 'Helvetica-Neue-Medium';
    }
 
   .logo{
@@ -237,6 +245,10 @@
   .right-lst {
       display: flex;
       align-self: end;
+  }
+
+  .brand-header {
+    font-size: 20px;
   }
 
   .border-test{
@@ -488,11 +500,18 @@
   .width-45 {
     width: 45%;
   }
+
+  .width-50 {
+    width: 50%;
+  }
   
   .width-100 {
     width: 100%;
   }
 
+  .height-100 {
+    height: 100%;
+  }
   /* font-sizes */
 
   .font-size-15 {
@@ -543,8 +562,100 @@
     align-items: center;
   }
 
+  .self-align-center {
+    align-self: center;
+  }
+
   .wrap {
     flex-wrap: wrap;
   }
 
+  /* footer styling */
+
+  .footer-container {
+    width: 85%;
+    padding: 2rem 0 0 0;
+  }
+
+  .footer {
+    margin: 0 0 1rem 0;
+    border-top: 2px solid var(--ash);
+  }
+
+  .footer-brands-main {
+    width: 25%;
+    padding: 0 1rem 2rem 0;
+    text-align: justify;
+    text-justify: auto;
+  }
+
+  .footer-brands-main .img-logo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .footer-brands-main .header-brand {
+    font-size: 30px;
+  }
+
+  .footer-header-list {
+    border-bottom: 2px solid var(--ash);
+    padding: 0 0 1rem 0;
+  }
+
+  .footer-main-categories,
+  .footer-main-nav {
+    width: 20%;
+  }
+
+  .footer-main-btn {
+    width: auto;
+    padding: 2.2rem 0 0 0;
+  }
+
+  .footer-main-btn > div {
+    margin: 0 0 1.5rem 0;
+  }
+
+  .footer-main-btn select {
+    height: 30px;
+    width: 80px;
+    margin: 0 0 0 auto;
+    border-bottom: 2px solid var(--ash)
+  }
+
+  .footerIcons {
+    margin: 1rem 0 0 0;
+    width: 50%;
+  }
+
+  .the-footer {
+    border-top: 2px solid skyblue;
+    padding: 1rem 0;
+  }
+
+  /* search section the search page */
+
+  .generic-checkbox[type='checkbox'] {
+    width: 19px;
+    height: 19px;
+    margin: 0 1rem 0 0;
+  }
+
+  .generic-input {
+    height: 20px;
+    width: 40px;
+  }
+
+  .search-hover:hover {
+    background-color: var(--ash);
+  }
+
+  .dial-btn {
+    display: none;
+  }
+
+  .search-hover:hover .dial-btn {
+    display: block;
+  }
 
