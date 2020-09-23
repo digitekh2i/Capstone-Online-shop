@@ -421,11 +421,11 @@
   }
 
   .products-row {
-    max-width: 100%;
+    max-width: auto;
   }
 
   .items {
-    width: 45%;
+    width: 220px;
     height: auto;
   }
 
