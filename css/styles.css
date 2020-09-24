@@ -502,6 +502,11 @@
   height: 100%;
 }
 
+.search-item-img {
+  height: 35%;
+  width: 22%;
+}
+
 .width-25 {
   width: 25%;
 }
@@ -520,6 +525,14 @@
 
 .width-50 {
   width: 50%;
+}
+
+.width-60 {
+  width: 60%;
+}
+
+.width-70 {
+  width: 70%;
 }
 
 .width-100 {
@@ -714,6 +727,14 @@
 
 .search-hover:hover .dial-btn {
   display: block;
+}
+
+.search-aside {
+  width: 30%;
+}
+
+.search-results {
+  width: 70%;
 }
 
 /* text positioning */
