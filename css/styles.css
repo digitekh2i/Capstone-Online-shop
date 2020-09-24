@@ -503,8 +503,8 @@
 }
 
 .search-item-img {
-  height: 35%;
-  width: 22%;
+  height: 45vh;
+  width: 65%;
 }
 
 .width-25 {
@@ -614,7 +614,11 @@
 }
 
 .self-align-start {
-  align-self: start;
+  align-self: flex-start;
+}
+
+.self-align-end {
+  align-self: flex-end;
 }
 
 .wrap {
@@ -723,6 +727,11 @@
   padding: 0.5rem;
   font-size: 15px;
   border-radius: 2px;
+}
+
+.search-add-btn {
+  text-align: center;
+  margin: 0 0 10px 0;
 }
 
 .search-hover:hover .dial-btn {
