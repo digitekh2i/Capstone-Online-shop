@@ -746,6 +746,10 @@
   width: 75%;
 }
 
+.serpenti-img-fix {
+  width: 780px;
+}
+
 /* text positioning */
 
 .text-center {
