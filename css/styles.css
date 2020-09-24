@@ -755,3 +755,14 @@
 .text-center {
   text-align: center;
 }
+
+/* line styling */
+
+.hot-add-line {
+  width:100%;
+  text-align:left;
+  margin-left:0; 
+  border: 1px solid var(--ash);
+  margin-top: 12px;
+  margin-bottom: 17px;
+}
