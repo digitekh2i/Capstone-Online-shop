@@ -124,7 +124,7 @@
   padding-left: 5px;
   display: inline-block;
   position: relative;
-  font-family: 'gotham-rounded-light';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .post-add {
@@ -133,7 +133,7 @@
   height: 30px;
   color: #fff;
   font-weight: bold;
-  font-family: 'gotham-rounded-light';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   border-radius: 3px;
 }
 
@@ -192,27 +192,27 @@
 /* customized fonts */
 
 .gottham-bold {
-  font-family: 'gotham-rounded-light';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .helv-light {
-  font-family: 'Helvetica-Neue-Light';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .helv-neu-light {
-  font-family: 'Helvetica-Neue-Medium';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .gotham-roundLight {
-  font-family: 'gotham-rounded-light';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .helv-nue-bold {
-  font-family: 'Helvetica-Neue-Bold';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .helv-neue-mid {
-  font-family: 'Helvetica-Neue-Medium';
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .logo {
@@ -403,7 +403,7 @@
   border: 1px solid var(--redd);
   border-radius: 4px;
   transform: scale(1.3);
-  transition: all 0.2 linear;
+  transition: all 0.2s linear;
 }
 
 /* main row styling 1 */
@@ -416,9 +416,9 @@
   margin: 0 1.5rem 0 0;
 }
 
-.products-row {
+/* .products-row {
   max-width: auto;
-}
+} */
 
 .items {
   width: 210px;
@@ -459,7 +459,7 @@
 }
 
 .responsive-img {
-  max-width: auto;
+  max-width: 100%;
 }
 
 .item-row-generic-hover:hover *,
@@ -527,7 +527,7 @@
 }
 
 .width-95 {
-  width: 95;
+  width: 95%;
 }
 
 .width-97 {
