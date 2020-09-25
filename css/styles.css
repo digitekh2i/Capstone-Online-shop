@@ -640,13 +640,13 @@ display: none;
   text-justify: auto;
 }
 
-.footer-brands-main .img-logo {
+/* .footer-brands-main .img-logo {
   width: 60px;
   height: 60px;
 }
-
-.footer-brands-main .header-brand {
-  font-size: 30px;
+ */
+.footer-brands-main .header-brand .footer-header-list{
+  font-size: 60px;
 }
 
 .footer-header-list {
@@ -656,7 +656,7 @@ display: none;
 
 .footer-main-categories,
 .footer-main-nav {
-  width: auto;
+  width: 100%;
 }
 
 .footer-main-btn {
@@ -785,3 +785,6 @@ input:focus + div.test-content {
     display:flex;
 }
 
+.border-solution {
+  border: 2px solid blue;
+}
