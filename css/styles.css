@@ -656,7 +656,7 @@ display: none;
 
 .footer-main-categories,
 .footer-main-nav {
-  width: 100%;
+  width: 30%;
 }
 
 .footer-main-btn {
@@ -682,6 +682,11 @@ display: none;
 .the-footer {
   border-top: 2px solid skyblue;
   padding: 1rem 0;
+}
+
+.fotter-logo-fix {
+  width: 10%;
+  
 }
 
 /* search section the search page */
