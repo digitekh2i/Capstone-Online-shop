@@ -660,7 +660,7 @@ display: none;
 }
 
 .footer-main-btn {
-  width: auto;
+  max-width: 100%;
   padding: 2.2rem 0 0 0;
 }
 
@@ -686,7 +686,7 @@ display: none;
 
 .fotter-logo-fix {
   width: 10%;
-  
+
 }
 
 /* search section the search page */
