@@ -447,6 +447,14 @@
   display: flex;
 }
 
+.test-display-none {
+  display: none;
+}
+
+.display-none {
+display: none;
+}
+
 .imgage-tgl {
   bottom: 2px;
   right: 1px;
@@ -464,38 +472,8 @@
 
 .item-row-generic-hover:hover *,
 .item-row-generic-hover:hover {
-  color: var(--blacky);
+  color: var(--whity);
   background-color: var(--blacky);
-}
-
-.item-popup {
-  display: flex;
-  flex-direction: column;
-  left: -60px;
-  bottom: 40px;
-  z-index: 100;
-  border: 1px solid var(--ash);
-  box-shadow: 1px 1px 10px (var(--ash));
-}
-
-.item-popup::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  display: block;
-  bottom: -10px;
-  left: 40%;
-  width: 20px;
-  height: 20px;
-  background-color: var(--white);
-  transform: rotate(45deg);
-  border: 1px solid var(--ash);
-  border-top: 0;
-  border-left: 0;
-}
-
-.item-popup a {
-  padding: 0.2rem 0.8rem;
 }
 
 .item-img {
@@ -779,5 +757,31 @@
   margin-top: 24px;
   margin-bottom: 34px;
   font-weight: lighter;
+}
+
+/* toggle-test */ 
+
+  .test-display-none {
+    display: none;
+  }
+
+input[type="checkbox"]{
+    color: magenta;
+    text-shadow: 0 0 0 #000;
+    padding: 6px 12px;
+    width: 60px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:focus{
+    outline: none;
+}
+
+input:focus + div.test-content {
+    display: block;
+}
+
+.flex-display {
+    display:flex;
 }
 
