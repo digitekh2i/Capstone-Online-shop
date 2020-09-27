@@ -640,14 +640,15 @@ display: none;
 
 .footer-brands-main {
   padding: 0 1rem 2rem 0;
-text-align: justify;
+  text-align: justify;
 }
 
-/* .footer-brands-main .img-logo {
-  width: 60px;
-  height: 60px;
+.footer-article {
+  font-size: 17px;
+  padding: 3px;
+  margin: 8px;
 }
- */
+
 .footer-brands-main .header-brand .footer-header-list{
   font-size: 60px;
 }
@@ -659,7 +660,7 @@ text-align: justify;
 
 .footer-main-categories,
 .footer-main-nav {
-  width: 25%;
+  width: 20%;
 }
 
 .footer-main-btn {
