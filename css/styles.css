@@ -803,6 +803,20 @@ input:focus + div.test-content {
 padding: 5px;
 }
 
+/* border */
 
+.page-border {
+  border: 2px solid var(--ash);
+  padding: 7px;
+  margin: 10px;
+}
+
+.margine {
+  margin: 25px;
+}
+
+.paginize {
+  color: #0000ff;
+}
 
 
