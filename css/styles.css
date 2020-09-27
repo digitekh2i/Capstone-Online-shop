@@ -591,6 +591,10 @@ display: none;
   align-items: flex-start;
 }
 
+.item-align-end {
+  align-items: flex-end;
+}
+
 .self-align-center {
   align-self: center;
 }
@@ -636,8 +640,7 @@ display: none;
 
 .footer-brands-main {
   padding: 0 1rem 2rem 0;
-  text-align: justify;
-  text-justify: auto;
+text-align: justify;
 }
 
 /* .footer-brands-main .img-logo {
@@ -676,7 +679,7 @@ display: none;
 }
 
 .footerIcons {
-  margin: 1rem 0 0 0;
+  width: 450px;
 }
 
 .the-footer {
@@ -793,3 +796,12 @@ input:focus + div.test-content {
 .border-solution {
   border: 2px solid blue;
 }
+
+.footer-select-fix {
+ margin-left: 30px;
+padding: 5px;
+}
+
+
+
+
