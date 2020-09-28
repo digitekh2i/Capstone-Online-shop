@@ -748,7 +748,8 @@ display: none;
 }
 
 .serpenti-img-fix {
-  width: 780px;
+  width: 100%;
+  height: 45vh;
 }
 
 .search-item1-arrow {
