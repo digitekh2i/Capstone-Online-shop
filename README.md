@@ -20,7 +20,7 @@ Search Result Page
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://raw.githack.com/digitekh2i/apple-home-page/feature/index.html)
+[Live Demo Link](https://digitekh2i.github.io/Capstone-Online-shop/)
 
 ## Authors
 
