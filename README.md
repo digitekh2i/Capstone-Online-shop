@@ -4,13 +4,13 @@
 
 Home Page
 ![screenshot](./media/Screenshot1.png)
-![screenshot]("./media/Screenshot2.png")
-![screenshot]("./media/Screenshot3.png")
+![screenshot](./media/Screenshot2.png)
+![screenshot](./media/Screenshot3.png)
 
 Search Result Page
-![screenshot]("./media/Screenshot2.png")
-![screenshot]("./media/Screenshot2.png")
-![screenshot]("./media/Screenshot2.png")
+![screenshot](./media/Screenshot2.png)
+![screenshot](./media/Screenshot2.png)
+![screenshot](./media/Screenshot2.png)
 
 
 
