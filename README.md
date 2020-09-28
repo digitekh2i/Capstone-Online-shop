@@ -1,8 +1,17 @@
 # Capstone-Online-Store
 
-> For the purpose of educational practical exhibition, this capstone project marks the completion of html/css technical curriculum. In this project i created an online store, that deals strictly on designers wrist watches.  
+> For the purpose of educational practical exhibition, this capstone project marks the completion of html/css technical curriculum. In this project i created an online store, that deals strictly on designers wrist watches. 
 
-![screenshot](images/screen.png)
+Home Page
+![screenshot](./media/Screenshot1.png)
+![screenshot]("./media/Screenshot2.png")
+![screenshot]("./media/Screenshot3.png")
+
+Search Result Page
+![screenshot]("./media/Screenshot2.png")
+![screenshot]("./media/Screenshot2.png")
+![screenshot]("./media/Screenshot2.png")
+
 
 
 ## Built With
