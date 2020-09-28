@@ -137,6 +137,12 @@
   border-radius: 3px;
 }
 
+/* customise font size */
+
+.light-font {
+  font-weight: lighter;
+}
+
 #tiny-mail {
   font-size: 15px;
 }
@@ -481,8 +487,8 @@ display: none;
 }
 
 .search-item-img {
-  height: 45vh;
-  width: 65%;
+  height: 50vh;
+  width: 50vw;
 }
 
 .width-25 {
@@ -698,7 +704,7 @@ display: none;
 .generic-checkbox[type='checkbox'] {
   width: 19px;
   height: 19px;
-  margin: 0 1rem 0 0;
+  margin: 0 2rem 1rem 0;
 }
 
 .generic-input {
@@ -739,6 +745,10 @@ display: none;
 
 .serpenti-img-fix {
   width: 780px;
+}
+
+.search-item1-arrow {
+  width: 30%;
 }
 
 /* text positioning */
@@ -817,6 +827,16 @@ padding: 5px;
 
 .paginize {
   color: #0000ff;
+}
+
+.check-fix {
+  margin-left: 20px;
+}
+
+.search-figures {
+  font-size: 18px;
+  padding: 25px;
+
 }
 
 
