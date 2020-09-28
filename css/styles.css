@@ -856,12 +856,11 @@ input:focus + div.test-content {
 }
 
 .grid-row {
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(5, 1fr auto);
 }
 
 .grid-column {
-  grid-template-columns: 
-  repeat(5,1fr auto);
+  grid-template-columns: repeat(5, 1fr auto);
 }
 
 .grid-display {
