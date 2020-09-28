@@ -8,9 +8,9 @@ Home Page
 ![screenshot](./media/Screenshot3.png)
 
 Search Result Page
-![screenshot](./media/Screenshot2.png)
-![screenshot](./media/Screenshot2.png)
-![screenshot](./media/Screenshot2.png)
+![screenshot](./media/Screenshot4.png)
+![screenshot](./media/Screenshot5.png)
+![screenshot](./media/Screenshot6.png)
 
 
 
