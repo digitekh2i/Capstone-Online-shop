@@ -1,6 +1,6 @@
 # Capstone-Online-Store
 
-> For the purpose of educational practical exhibition, this capstone project marks the completion of html/css technical curriculum. In this project i created an online store, that deals strictly on designers wrist watches. 
+> For the purpose of educational practical exhibition, this capstone project marks the completion of html/css technical curriculum. In this project i created an online store, that deals strictly on designers wrist watches. the name of the ficticious company is wristy.
 
 Home Page
 ![screenshot](./media/Screenshot1.png)
