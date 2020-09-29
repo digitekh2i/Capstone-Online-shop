@@ -422,12 +422,13 @@
 .title-row * {
   margin: 0 1.5rem 0 0;
 }
-/* 
+ 
  .products-row {
-  width: 100%;
-  height: auto;
-  justify-content: center;
-}   */
+} 
+
+.product-row-margin {
+  margin: 5px;
+}
 
 .items {
   width: 210px;
