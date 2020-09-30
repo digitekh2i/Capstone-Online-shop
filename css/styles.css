@@ -849,6 +849,11 @@ input:focus + div.test-content {
   margin: 25px;
 }
 
+.margin-tag {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 .margine-arrow-fix {
   margin: 11px;
 }
