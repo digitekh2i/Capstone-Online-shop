@@ -958,19 +958,40 @@ input:focus + div.test-content {
     }
    
     .hot-add-img-box {
-      width: 35%;
+      width: 45%;
       height: auto;
     }
 
+    .hot-add-img {
+      width: 85vw;
+      height: 100%;
+    }
+
     .hot-add-article {
-    width: 35%;
-    margin: none;
-    padding: none;
+    width: 45%;
+    margin: 7px 2px 7px 2px;
     height: auto;
     }
 
-    .hot-add-article h2 {
+    .hot-add-article p,
+    h2 {
+      font-size: 14px;
+    }
+
+    .hot-add-btns {
+      position: relative;
+      height: 10%;
+      z-index: 70;
+      bottom: 30px;
+      left: 240px;
+    }
+
+    .generic-btn {
       font-size: 12px;
+    }
+
+    .hot-add-cred-btns button:first-child {
+      width: 50px;
     }
 
 }
