@@ -179,7 +179,7 @@
 
 .hot-add-arrow-left,
 .hot-add-arrow-right {
-  width: 4%;
+  width: 2%;
 }
 
 .circle {
@@ -356,11 +356,11 @@
 .hot-add-main {
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 70%;
 }
 
 .hot-add-img {
-  width: 400px;
+  width: 90%;
   height: auto;
 }
 
@@ -369,11 +369,11 @@
 }
 
 .hot-add-btns {
-  width: 22%;
-  height: 10%;
+  width: 18%;
+  height: 7%;
   position: relative;
   z-index: 50;
-  left: 315px;
+  left: 451px;
   text-align: center;
 }
 
@@ -386,7 +386,7 @@
 }
 
 .hot-add-article {
-  width: 45%;
+  width: 40%;
   padding: 0 0 0 1rem;
 }
 
@@ -936,6 +936,43 @@ input:focus + div.test-content {
       background-color: var(--blacky);
       color: var(--ash);
     }
+
+    /* main section */
+
+    .main-container {
+      width: 100%;
+    }
+
+    /* hot-add-section */
+
+    .hot-add-title {
+      width: 100%;
+      font-size: 17px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hot-add-main {
+      width: 90%;
+      display: flex;
+    }
+   
+    .hot-add-img-box {
+      width: 35%;
+      height: auto;
+    }
+
+    .hot-add-article {
+    width: 35%;
+    margin: none;
+    padding: none;
+    height: auto;
+    }
+
+    .hot-add-article h2 {
+      font-size: 12px;
+    }
+
 }
 
 
