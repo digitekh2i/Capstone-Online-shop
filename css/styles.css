@@ -746,7 +746,7 @@
 .search-aside {
   width: 20%;
   margin-left: 20px;
-
+  margin-top: 20px;
 }
 
 .search-results {
@@ -781,6 +781,28 @@
   padding: 4px 0 4px 0;
   margin: 0 0 0 10px;
 }
+
+/* search page borders */
+
+.border-left {
+border-left: 1px solid black;
+height: 100%;
+}
+
+.border-right {
+  border-bottom: 1px solid black;
+  height: 100%;
+}
+
+.border-top {
+  border-bottom: 1px solid black;
+  height: 100%;
+}
+
+.border-bottom {
+ border-bottom: 1px solid black;
+ height: 100%;
+} 
 
 /* text positioning */
 
