@@ -421,9 +421,6 @@
 
 .title-row * {
   margin: 0 1.5rem 0 0;
-}
- 
- .products-row {
 } 
 
 .product-row-margin {
@@ -1215,6 +1212,35 @@ input:focus + div.test-content {
     font-size: 11px;
   }
 
+  /* search header section */
+
+  .search-collection {
+   display: flex;
+   position: relative;
+   left: -310px;
+  }
+  
+  .search-cp-name {
+    font-size: 32px;
+  }
+
+  .search-prod-result {
+    font-size: 10px;
+    width: 180px;
+  }
+
+  .search-aside {
+    display: none;
+  }
+  
+  .search-form-input,
+  .all-brands{
+    width: 100px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 100; 
+  }
+
   /* main section */
 
   .items {
@@ -1243,6 +1269,52 @@ input:focus + div.test-content {
       display: flex;
     }
 
+    /* search main */
+
+    .search-figures {
+      font-size: 15px;
+    }
+
+    .image-row {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .image-row-section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-row-article {
+      width: 100%;
+      margin-bottom: 2px solid white;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-row-article 
+     p,
+     h5,
+     h6,
+     button{
+      font-size: 13px;
+      margin: 4px 3px 4px 4px;
+    }
+
+    .search-responsive-img-fix  {
+      max-width: 100%;
+      width: 50%;
+      max-height: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    .responsive-border-bottom {
+      border-bottom: 8px solid white;
+      height: 100%;
+    }
 } 
 
 
