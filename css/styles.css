@@ -999,6 +999,49 @@ input:focus + div.test-content {
       font-size: 13px;
     }
 
+    /* search main section */
+
+    .search-page-box {
+      width: 100%;
+      display: flex;
+    }
+
+    .image-row {
+      width: 100%;
+    }
+
+    .image-row-section {
+      width: 50%;
+    }
+
+    .image-row-article {
+      width: 50%;
+    }
+
+     hr {
+      margin-left: 10px;
+      }
+
+    .search-aside {
+     width: 100%;
+     display: flex;
+    }
+
+    .form-check {
+      width: 25%;
+    }
+
+    .search-results {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .inline-form-check {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     /* main section */
 
     .main-container {
