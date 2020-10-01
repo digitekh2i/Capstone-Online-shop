@@ -1029,7 +1029,7 @@ input:focus + div.test-content {
 
 @media screen and (max-width: 360px) {
  
-  /* header */
+  /* header section */
 
   .header-container {
     width: 100%;
@@ -1103,6 +1103,34 @@ input:focus + div.test-content {
     margin-left: 7px;
     font-size: 11px;
   }
+
+  /* main section */
+
+  .items {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .responsive-img-fix  {
+    max-width: 100%;
+    width: 50%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .items-text * {
+    font-size: 17px;
+    padding: 5px 3px;
+
+  }
+
+    .the-footer * {
+      font-size: 15px;
+      width: 100%;
+      display: flex;
+    }
 
 } 
 
