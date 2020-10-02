@@ -2,20 +2,43 @@
 
 > For the purpose of educational practical exhibition, this capstone project marks the completion of html/css technical curriculum. In this project i created an online store, that deals strictly on designers wrist watches. the name of the ficticious company is wristy.
 
+About Wristy!
+
+Wristy is proposed to be a world renowned tested and trusted leading global jewery wrist watches dealer, only on legacy brands. And of which this website, design and implemented with user experience centered purpose. Is the platform through which they communicate and transact with thier dedicated customers and partners on a daily bases. Round the clock, all day all year. 
+
+NA: in order to feed my curiosity i opted to work on this project without any framework. only raw CSS.
+
 Home Page
-![screenshot](./media/Screenshot1.png)
-![screenshot](./media/Screenshot2.png)
-![screenshot](./media/Screenshot3.png)
+![screenshot](./media/Screenshothome1.png)
+
+![screenshot](./media/Screenshothome2.png)
+
+![screenshot](./media/Screenshot-hometablet1.png)
+
+![screenshot](./media/Screenshotmobile.png)
+
+![screenshot](./media/Screenshot-homemobilee.png)
+
 
 Search Result Page
-![screenshot](./media/Screenshot4.png)
-![screenshot](./media/Screenshot5.png)
-![screenshot](./media/Screenshot6.png)
+![screenshot](./media/Screenshotsearch-desktop.png)
+
+![screenshot](./media/Screenshotsearchdesktop2.png)
+
+![screenshot](./media/Screenshottablet1.png)
+
+![screenshot](./media/Screenshotsearchtablet2.png)
+
+![screenshot](./media/Screenshot-search-moblie.png)
+
+![screenshot](./media/Screenshot-search-mobile2.png)
+
 
 
 
 ## Built With
-
+- flexbox
+- Grid
 - html & css,
 - Visual Studio Code, Git and Github.
 
