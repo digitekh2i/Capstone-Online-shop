@@ -6,7 +6,11 @@ About Wristy!
 
 Wristy is proposed to be a world renowned tested and trusted leading global jewery wrist watches dealer, only on legacy brands. And of which this website, design and implemented with user experience centered purpose. Is the platform through which they communicate and transact with thier dedicated customers and partners on a daily bases. Round the clock, all day all year. 
 
+<<<<<<< HEAD
 NA: in order to feed my curiosity and excercise what i have learnt, i opted to work on this project without any framework. only raw CSS.
+=======
+NA: in order to feed my curiosity and exercise what i have learnt, i opted to work on this project without any framework. only raw CSS.
+>>>>>>> 9c0abc3be2437f4c231bfdb5806f4d45734dc6ca
 
 Home Page
 ![screenshot](./media/Screenshothome1.png)
