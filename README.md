@@ -6,7 +6,7 @@ About Wristy!
 
 Wristy is proposed to be a world renowned tested and trusted leading global jewery wrist watches dealer, only on legacy brands. And of which this website, design and implemented with user experience centered purpose. Is the platform through which they communicate and transact with thier dedicated customers and partners on a daily bases. Round the clock, all day all year. 
 
-NA: in order to feed my curiosity i opted to work on this project without any framework. only raw CSS.
+NA: in order to feed my curiosity and excercise what i have learnt, i opted to work on this project without any framework. only raw CSS.
 
 Home Page
 ![screenshot](./media/Screenshothome1.png)
@@ -43,7 +43,7 @@ Search Result Page
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://digitekh2i.github.io/Capstone-Online-shop/)
+[Live Demo Link](https://raw.githack.com/digitekh2i/Capstone-Online-shop/dev-ground/index.html)
 
 ## Authors
 
