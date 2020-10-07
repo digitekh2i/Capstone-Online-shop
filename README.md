@@ -25,6 +25,10 @@ Aside section starting from the top, are the two check boxes with "custom sample
 
 The main section showing the search results of some entries made. 
 
+Responsiveness:
+
+In order to make sure that wristy is user friendly, i made it responsive to enable cross-platform consumer convenience. Hence, Irrespective of the type of device you are using. it sits beautifuly with your screen size.
+
 NA: in order to feed my curiosity and exercise what i have learnt, i opted to work on this project without any framework. only raw CSS.
 
 Home Page
