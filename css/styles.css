@@ -702,7 +702,7 @@ body {
 /* search section in the search page */
 
 .top-margin {
-  margin-top: 23px;
+  margin-top: 25px;
 }
 
 .search-main {
@@ -1198,7 +1198,8 @@ input:focus + div.test-content {
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 767px) {
+@media screen and (min-width: 360px) and (max-width: 600px) {
+
   body {
     width: 100%;
   }
@@ -1270,6 +1271,262 @@ input:focus + div.test-content {
 
   .mid-nav-font-fix {
     font-size: 9px;
+  }
+
+  .cp-name {
+    font-size: 25px;
+  }
+
+  .header-form p {
+    font-size: 12px;
+  }
+
+  .form-input {
+    width: 130px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .form-button {
+    width: 60px;
+    margin-left: 7px;
+    font-size: 11px;
+  }
+
+  /* search header section */
+
+  .search-collection {
+    display: flex;
+    position: relative;
+    left: -310px;
+  }
+
+  .search-cp-name {
+    font-size: 32px;
+  }
+
+  .search-prod-result {
+    font-size: 10px;
+    width: 180px;
+  }
+
+  .search-aside {
+    display: none;
+  }
+
+  .search-form-input,
+  .all-brands {
+    width: 100px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  /* main section */
+
+  .media-arrow {
+    display: none;
+  }
+
+  .items {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .item-img {
+    width: 100%;
+  }
+
+  .responsive-img-fix {
+    max-width: 100%;
+    width: 50%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .items-text * {
+    font-size: 17px;
+    padding: 5px 3px;
+  }
+
+  .the-footer * {
+    font-size: 15px;
+    width: 100%;
+    display: flex;
+  }
+
+  .footer-article-small {
+    width: 300px;
+    font-size: 12px;
+  }
+
+  .footer-content-wrap {
+    font-size: 12px;
+  }
+
+  .footer-flex-fix {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lang-country-fix {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-position-fix {
+    display: flex;
+  }
+
+  .footer-icon-fix {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .overflow-fix {
+    overflow: hidden;
+  }
+
+  /* search main */
+
+  .search-figures {
+    font-size: 15px;
+  }
+
+  .image-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-row-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-row-article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-row-article p,
+  h5,
+  h6,
+  button {
+    font-size: 13px;
+    margin: 4px 3px 4px 4px;
+  }
+
+  .search-responsive-img-fix {
+    max-width: 100%;
+    width: 50%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .responsive-border-bottom {
+    border-bottom: 8px solid white;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  /* header section */
+
+  .header-container {
+    width: 100%;
+    font-size: 9px;
+    justify-content: space-between;
+  }
+
+  .nav-container > * {
+    width: 100%;
+    font-size: 9%;
+    height: 52px;
+  }
+
+  .nav-links {
+    justify-content: space-between;
+  }
+
+  .hot-add-title {
+    display: none;
+  }
+
+  .buy-category {
+    visibility: visible;
+  }
+
+  .lates-add {
+    display: none;
+  }
+
+   .post-add {
+    display: inline-block;
+  }
+
+  .buy-list {
+    display: none;
+  }
+
+  .right-lst {
+    display: none;
+  }
+
+  .logo {
+    width: 12px;
+    height: 12px;
+  }
+
+  .company-font {
+    font-size: 9px;
+    position: relative;
+    bottom: 6px;
+  }
+
+  .ul-list {
+    display: flex;
+  }
+
+  .ul-list > * {
+    font-size: 9px;
+  }
+
+  /* fixes */
+
+  .last-nav-font-fix {
+    font-size: 15px;
+  }
+
+  .logo-last-fix {
+    position: relative;
+    top: 5px;
+  }
+
+  .logo-last-font {
+    position: relative;
+    bottom: 5px;
+  }
+
+  .font-nav-fix-all {
+    position: relative;
+    top: 5px;
   }
 
   .cp-name {
@@ -1561,6 +1818,10 @@ input:focus + div.test-content {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
+  .formcheck > * {
+    font-size: 13px;
+  }
+
   .search-results {
     width: 100%;
     display: flex;
@@ -1568,8 +1829,8 @@ input:focus + div.test-content {
   }
 
   .inline-form-check {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5px;
+    margin-right: 1px;
   }
 
   /* main section */
