@@ -907,6 +907,10 @@ input:focus + div.test-content {
   grid-gap: 10px;
 }
 
+.overflow-fix {
+  overflow: hidden;
+}
+
 /* media querries */
 
 /* mobile min */
@@ -1165,6 +1169,7 @@ input:focus + div.test-content {
     height: 100%;
   }
 }
+
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
   body {
@@ -1539,6 +1544,10 @@ input:focus + div.test-content {
   }
 
   /* hot-add-section */
+
+  .overflow-fix {
+    overflow: hidden;
+  }
 
   .hot-add-title {
     width: 100%;
