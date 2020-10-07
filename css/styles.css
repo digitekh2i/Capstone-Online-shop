@@ -932,7 +932,7 @@ input:focus + div.test-content {
   .nav-container > * {
     width: 100%;
     font-size: 9%;
-    height: 35px;
+    height: 38px;
   }
 
   .nav-links {
@@ -981,6 +981,15 @@ input:focus + div.test-content {
 
   .ul-list > * {
     font-size: 9px;
+  }
+
+  .small-nav-font-fix {
+    font-size: 12px;
+  }
+
+  .small-mobile-logo-fix {
+    position: relative;
+    top: 5px;
   }
 
   .cp-name {
