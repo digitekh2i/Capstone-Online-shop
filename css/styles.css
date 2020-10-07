@@ -1022,7 +1022,7 @@ input:focus + div.test-content {
   .search-item-article {
     margin: 10px 2px;
     padding: 0  5px;
-  } 
+  }
 
   .search-collection {
     display: flex;
@@ -1197,7 +1197,6 @@ input:focus + div.test-content {
     height: 100%;
   }
 }
-
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
   body {
@@ -1388,7 +1387,7 @@ input:focus + div.test-content {
     max-width: 100%;
   }
 
-  overflow-fix {
+  .overflow-fix {
     overflow: hidden;
   }
 
