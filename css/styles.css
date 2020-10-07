@@ -699,7 +699,11 @@ body {
   width: 10%;
 }
 
-/* search section the search page */
+/* search section in the search page */
+
+.top-margin {
+  margin-top: 23px;
+}
 
 .search-main {
   width: 90%;
@@ -1215,7 +1219,7 @@ input:focus + div.test-content {
   .nav-container > * {
     width: 100%;
     font-size: 9%;
-    height: 35px;
+    height: 42px;
   }
 
   .nav-links {
@@ -1262,6 +1266,10 @@ input:focus + div.test-content {
   }
 
   .ul-list > * {
+    font-size: 9px;
+  }
+
+  .mid-nav-font-fix {
     font-size: 9px;
   }
 
