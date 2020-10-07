@@ -690,6 +690,7 @@ body {
 }
 
 .the-footer {
+  width: 100%;
   border-top: 2px solid skyblue;
   padding: 1rem 0;
 }
@@ -1005,6 +1006,11 @@ input:focus + div.test-content {
 
   /* search header section */
 
+  .search-item-article {
+    margin: 10px 2px;
+    padding: 0  5px;
+  } 
+
   .search-collection {
     display: flex;
     position: relative;
@@ -1033,6 +1039,11 @@ input:focus + div.test-content {
   }
 
   /* main section */
+
+  .company-note {
+    width: 100%;
+    overflow: hidden;
+  }
 
   .media-arrow {
     display: none;
@@ -1116,6 +1127,10 @@ input:focus + div.test-content {
   .footer-logo-mobile-position {
     position: relative;
     right: 50px;
+  }
+
+  .overflow-fix {
+    overflow: hidden;
   }
 
   /* search main */
@@ -1354,6 +1369,10 @@ input:focus + div.test-content {
   .footer-icon-fix {
     width: 100%;
     max-width: 100%;
+  }
+
+  overflow-fix {
+    overflow: hidden;
   }
 
   /* search main */
