@@ -66,7 +66,7 @@ Search Result Page
 - Visual Studio Code, Git and Github.
 
 ## Live Demo
-[Live Demo Link](https://rawcdn.githack.com/digitekh2i/Capstone-Online-shop/189ef65d276942154a581e94a04a69f4fab9825e/index.html)
+[Live Demo Link](https://rawcdn.githack.com/digitekh2i/Capstone-Online-shop/048b58163d333598a58ffa980bbab0328958e176/index.html)
 
 ## Authors
 
