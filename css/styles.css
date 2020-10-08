@@ -1659,6 +1659,12 @@ input:focus + div.test-content {
     flex-direction: column;
   }
 
+  .mobile-arrow-fix {
+    position: relative;
+    right: 30px;
+    top: 1px;
+  }
+
   .image-row-section {
     width: 100%;
     display: flex;
@@ -1910,7 +1916,7 @@ input:focus + div.test-content {
 
   .tablet-arrow-fix {
     position: relative;
-    left: 300px;
+    left:275px;
   }
 
   .item-listing-container {
