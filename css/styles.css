@@ -1198,8 +1198,7 @@ input:focus + div.test-content {
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 600px) {
-
+@media screen and (min-width: 360px) and (max-width: 433px) {
   body {
     width: 100%;
   }
@@ -1438,7 +1437,7 @@ input:focus + div.test-content {
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 767px) {
+@media screen and (min-width: 434px) and (max-width: 767px) {
   body {
     width: 100%;
   }
@@ -1477,7 +1476,7 @@ input:focus + div.test-content {
     display: none;
   }
 
-   .post-add {
+  .post-add {
     display: inline-block;
   }
 
@@ -1916,7 +1915,7 @@ input:focus + div.test-content {
 
   .tablet-arrow-fix {
     position: relative;
-    left:275px;
+    left: 275px;
   }
 
   .item-listing-container {
