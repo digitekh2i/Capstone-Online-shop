@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>search</title>
+</head>
+<body>
+    <!-- page wrapper -->
+   <div class="wrapper">
+
+    <header class="header-container">
+        <nav class="nav-container">
+            <ul class="ul-list">
+                <li class="nav-links logo-last-fix "><img class="logo " src="./media/wristit.png" alt=""><span class="company-font last-nav-font-fix logo-last-fix"><a class="small-nav-font-fix  small-mobile-logo-fix logo-last-font" href="search_result.html">Wristy</a></span></li>
+                <li class="nav-links last-nav-font-fix"><a class="font-redd font-nav-fix-all" href="index.html"><i class="color-redd fa fa-home" aria-hidden="true"></i> <span class="color-redd space-nav small-nav-font-fix">Home</span></a></li>
+                <li class="nav-links last-nav-font-fix"><a class="buy-category font-nav-fix-all" href="search_result.html"><i class="fa fa-th-list" aria-hidden="true"> <span class="space-nav">Category</span></i></a></li>
+                <li class="nav-links"><a class="buy-list" href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="space-nav">Purchase List</span></a></li>
+                <li class="nav-links">
+                    <button type="button" class="post-add ">POST AN AD</button>
+                </li>
+            </ul>
+            <div class="right-lst">
+                <div class="avatar-icon"><a class="color-ash" href="">
+                    <i id="tiny-mail" class="fa fa-envelope text-suvagray"></i>
+                    <span class="color-whity tiny-font background-red circle foreground-avatar">2</span>
+                    <span class="color-whity tiny-font">Mr.customer</span>
+                </a></div>
+                <div class="avatar-icon"><a href=""><img class="user-image" src="./images/adrian-burrowes.png" alt="user"></a></div>
+            </div>
+        </nav>
+
+        <!-- header form section-->
+        <section class="header-form">
+
+            <div class=" search-collection color-whity flex-display flex-column content-justify-start item-align-start search-margin">
+                <h1 class="cp-name search-cp-name helv-light light-font">Wristy</h1>
+
+                <h5 class=" search-prod-result gotham-roundLight mid-font light-font margine">About 4000 collections in our database.</h5>
+            </div>
+
+             <div class="search-form-wrapper">
+
+              <form class="search-top-form top-form" action="./search_result.html">
+              
+              <select name="all-brands" class="drp-dwn-lst-style" id="drp-dwn">
+                <option class="drp-dwn-lst-style" value="0">Watch Brands</option>
+                  <option class="drp-dwn-lst-style" value="1">Rolex</option>
+                  <option class="drp-dwn-lst-style" value="2">Cartier</option>
+                  <option class="drp-dwn-lst-style" value="3">Hublot</option>
+                  <option class="drp-dwn-lst-style" value="4">Omega</option>
+                  <option class="drp-dwn-lst-style" value="5">Bulgari</option>
+              </select>
+
+              <input class="search-form-input form-input" type="search" placeholder=" watch model lookup..?">
+
+              <input class="search-form-input" type="search" placeholder="Search for a maker">
+
+              <button type="button" class="form-button helv-neue-mid" onclick="window.location.href='search_result.html'">Search</button> 
+
+            </form>
+
+            </div>
+
+        </section>
+
+    </header>
+    
+    
+    <main class="search-main flex-display  background-row-items">
+        <div class="search-page-box flex-display ">
+            <!-- <button type="button" class="button  background-blacky color-ass helv-neue-mid  width-autor ">Filter search</button> -->
+            <aside class="search-aside flex-display flex-column ">    
+              <div class="formcheck flex-display flex-column width-autor">
+                    <div class="form-check top-margin">
+                        <label class="helv-neue-mid color-ash">
+                            <input class="generic-checkbox check-fix" type="checkbox" value="1">Custom Samples
+                        </label>
+
+                        <label class="helv-neue-mid color-ash">
+                            <input class="generic-checkbox " type="checkbox" value="1">brand samples
+                        </label>
+                    </div>
+                 <div class="form-check inline-form-check">
+                    <div class="">
+                        <h5 class="helv-neue-mid color-blacky">type</h5>
+                        <hr class="border-bottom"> 
+                    </div>
+                    <div class="flex-display flex-column">
+                        <div class="inline-form-check">
+                            <label class="helv-neue-mid color-ash">
+                                <input class="generic-checkbox" type="checkbox" value="1">Rose Gold
+                            </label>
+                        </div>
+                        <div class="inline-form-check">
+                            <label class="helv-neue-mid color-ash">
+                                <input class="generic-checkbox" type="checkbox" value="1">Steel & Leather
+                            </label>
+                        </div>
+                        <div class="inline-form-check">
+                            <label class="helv-neue-mid color-ash">
+                                <input class="generic-checkbox" type="checkbox" value="1">YellowGold
+                            </label>
+                        </div>
+                    </div>
+                 </div>
+
+                 <div class="form-check inline-form-check">
+                    <div class="">
+                        <h5 class="helv-nue-bold color-blacky">Brands</h5>
+                        <hr class="border-bottom"> 
+                    </div>
+                    <div class="flex-display flex-column ">
+                        <div class="">
+                            <label class="helv-neue-mid color-ash">
+                                <input class="generic-checkbox" type="checkbox" value="1"> &Lt; Hublot</label>
+                        </div>
+                        <div class="flex-display flex-column">
+                            <label class="helv-neue-mid color-ash">
+                                <input class="generic-checkbox" type="checkbox" value="1"> 20009 - 2019 yrs
+                            </label>
+                        </div>
+                        <div class="flex-display flex-column self-align-start">
+                            <label class="helv-neue-mid color-ash ">
+                                <input class="generic-checkbox" type="checkbox" value="1">Special Edition No1
+                            </label>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="form-check ">
+                    <div class="border bottom">
+                        <h5 class="helv-neue-mid color-blacky">Price Range</h5>
+                        <hr class="border-bottom"> 
+                    </div>
+                    <div class="inline-form-check ">
+                        <label class="helv-neue-mid color-ash">
+                            <input class="generic-checkbox" type="checkbox" value="1">&Lt; €10000
+                        </label>
+                    </div>
+                    <div class="inline-form-check">
+                        <label class="helv-neue-mid color-ash">
+                            <input class="generic-checkbox" type="checkbox" value="1"> €11000 €20000
+                        </label>
+                    </div>
+                    <div class="inline-form-check">
+                        <label class="helv-neue-mid color-ash">
+                            <input class="generic-checkbox" type="checkbox" value="1"> €21000 €30000
+                        </label>
+                    </div>
+                    <div class="inline-form-check">
+                        <label class="helv-neue-mid color-ash">
+                            <input class="generic-checkbox" type="checkbox" value="1"> €31000 €40000
+                        </label>
+                    </div>
+                    <div class="inline-form-check">
+                        <label class="helv-neue-mid color-ash">
+                            <input class="generic-checkbox" type="checkbox" value="1"> €40000
+                        </label>
+                    </div>
+                </div>
+            </div>
+         </aside>
+
+
+            <section class="search-results border-left border-bottom  border-top flex-display flex-column  width-autor">
+                <div class="">
+                    <h6 class="search-figures light-font">300 search results for <strong>All brands </strong> search by <strong>models</strong></h6>
+                    <hr class=""> 
+                </div>
+                
+                    <div class="image-row flex-display search-hover content-justify-center ">
+                        <div class="image-row-section flex-display flex-column wrap width-25">
+                            <img class="search-item-img responsive-img search-responsive-img-fix " src="./images/classic-fusion-aerofusion-black-magic-45-mm-525.CM.0170.RX-soldier-shot.png" alt="">
+                            <span class=" search-item1-arrow img-arrow-fix tablet-arrow-fix relative-position background-blacky text-center mobile-arrow-fix">
+                                <a class="hot-add-arrow background-blacky " href=""><i class="color-redd fa fa-chevron-left text-cabret add-margin "></i></a>
+                                <a class="background-blacky hot-add-arrow " href=""><i class="color-redd fa fa-chevron-right text-cabret add-margin "></i></a>
+                            </span>
+                        </div>
+                        <div  class="responsive-border-bottom image-row-article image-content-row flex-display flex-column content-justify-around width-60">
+                            <h5 class="helv-nue-bold color-blacky search-item-title">Classic Aerofusion Black Magic</h5>
+                            <p class="color-redd helv-neue-mid search-item-title">Hublot</p>
+                            <p class="helv-neue-mid color-ash search-item-article mid-font">Hublot Classic Fusion Aerofusion Black Magic (525CM0170RX) self-winding automatic watch, 
+                                features a 45mm black ceramic case surrounding a skeletonized dial on a black rubber strap with a PVD coated stainless steel deployant buckle. 
+                                Functions include hours, minutes, small seconds, date and chronograph.</p>
+                            <h6 class="helv-neue-mid color-blacky mid-font light-font search-item-article"><strong>Warranty </strong>This watch comes with the original box and warranty.
+                            </h6>
+                            <div class="flex-display content-justify-around">
+                                <p class="helv-neue-mid color-blacky search-year">2020</p>
+                                <button class="dial-btn generic-btn background-redd color-whity helv-neue-mid width-25 self-align-start">Call us</button>
+                                <button class="search-add-btn generic-btn search-generic-btn background-redd color-whity helv-neue-mid width-25 self-align-end">16050€</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                <div class="image-row flex-display search-hover content-justify-center">
+                    <div class="image-row-section flex-display flex-column wrap width-25">
+                        <img class="search-item-img responsive-img serpenti-img-fix search-responsive-img-fix" src="./images/bulgari-rose-serpenti-watch-whitegold-18kt.jpg" alt="">
+                        <span class="search-item1-arrow img-arrow-fix tablet-arrow-fix relative-position background-blacky text-center mobile-arrow-fix">
+                            <a class="hot-add-arrow background-blacky " href=""><i class="color-redd fa fa-chevron-left text-cabret add-margin "></i></a>
+                            <a class="background-blacky hot-add-arrow " href=""><i class="color-redd fa fa-chevron-right text-cabret add-margin "></i></a>
+                        </span>
+                    </div>
+                    <div class="responsive-border-bottom image-row-article image-content-row flex-display flex-column content-justify-around width-60">
+                        <h5 class="helv-nue-bold color-blacky search-item-title">Serpenti Whitegold Watch</h5>
+                        <p class="color-redd helv-neue-mid search-item-title">Bvlgari</p>
+                        <p class="helv-neue-mid color-ash search-item-article">Serpenti 18Kt white gold watch with encrusted diamonds with few green emeralds.  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum 
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                        <h6 class="helv-neue-mid color-blacky mid-font light-font search-item-article"><strong>Warranty </strong>This watch comes with the original box and warranty.
+                        </h6>
+                        <div class="flex-display content-justify-around">
+                            <p class="helv-neue-mid color-blacky search-year">2020</p>
+                            <button class="dial-btn generic-btn background-redd color-whity helv-neue-mid width-25 self-align-start">Call us</button>
+                            <button class="search-add-btn generic-btn search-generic-btn  background-redd color-whity helv-neue-mid width-25 self-align-end">45000€</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-row flex-display search-hover content-justify-center">
+                    <div class="image-row-section flex-display flex-column wrap width-25 ">
+                        <img class="search-item-img responsive-img search-responsive-img-fix" src="./images/oyster-pink-perpetual41.jpg" alt="">
+                        <span class="search-item1-arrow img-arrow-fix tablet-arrow-fix relative-position background-blacky text-center mobile-arrow-fix">
+                            <a class="hot-add-arrow background-blacky " href=""><i class="color-redd fa fa-chevron-left text-cabret add-margin "></i></a>
+                            <a class="background-blacky hot-add-arrow " href=""><i class="color-redd fa fa-chevron-right text-cabret add-margin "></i></a>
+                        </span>
+                    </div>
+                    <div class="responsive-border-bottom image-row-article image-content-row flex-display flex-column content-justify-around width-60">
+                        <h5 class="helv-nue-bold color-blacky search-item-title ">Oyster Pink Perpetual 41.(Oystersteel)</h5>
+                        <p class="color-redd helv-neue-mid search-item-title">Rolex</p>
+                        <p class="helv-neue-mid color-ash search-item-article ">While the splashiest Rolex-related headline of the day is the announcement of a new 41mm Submariner, that's not the only new watch we're getting from the Crown on this warm summer evening. 
+                            It's not even the only new 41mm watch, as it turns out. The Oyster Perpetual, which is the entry point into Rolex's collection, is now available in a 41mm case size, replacing the 39mm, and joining the 36mm, 34mm, 31mm, 
+                            and 28mm options.</p>
+                        <h6 class="helv-neue-mid color-blacky mid-font light-font search-item-article"><strong>Warranty </strong>This watch comes with the original box and warranty.
+                        </h6>
+                        <div class="flex-display content-justify-around">
+                            <p class="helv-neue-mid color-blacky search-year">2020</p>
+                            <button class="dial-btn generic-btn background-redd color-whity helv-neue-mid width-25 self-align-start">Call us</button>
+                            <button class="search-add-btn generic-btn search-generic-btn  background-redd color-whity helv-neue-mid width-25 self-align-end">45000€</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-row flex-display search-hover content-justify-center">
+                    <div class="image-row-section flex-display flex-column wrap width-25 ">
+                        <img class="search-item-img responsive-img search-responsive-img-fix"  src="./images/omega-constellation-gold-leather.jpg" alt="">
+                        <span class="search-item1-arrow img-arrow-fix tablet-arrow-fix relative-position background-blacky text-center mobile-arrow-fix">
+                            <a class="hot-add-arrow background-blacky " href=""><i class="color-redd fa fa-chevron-left text-cabret add-margin "></i></a>
+                            <a class="background-blacky hot-add-arrow " href=""><i class="color-redd fa fa-chevron-right text-cabret add-margin "></i></a>
+                        </span>
+                    </div>
+                    <div class="responsive-border-bottom image-row-article image-content-row flex-display flex-column content-justify-around width-60 ">
+                        <h5 class="helv-nue-bold color-blacky search-item-title ">Constellation Gold Leather</h5>
+                        <p class="color-redd helv-neue-mid search-item-title">Omega</p>
+                        <p class="helv-neue-mid color-ash search-item-article">The dramatic and enduring design of the OMEGA Constellation is characterised by its famous half-moons, as well as the “claws” on the side of the case.
+                            This 41 mm 18K yellow gold model features a polished black ceramic bezel with Roman numerals in Ceragold™, a sun-brushed black dial and a date window at the 6 o'clock position. The hands, 
+                            OMEGA logo, Constellation star and facetted indexes are all in 18K yellow gold.</p>
+                        <h6 class="helv-neue-mid color-blacky mid-font light-font search-item-article"><strong>Warranty </strong>This watch comes with the original box and warranty.
+                        </h6>
+                        <div class="flex-display content-justify-around">
+                            <p class="helv-neue-mid color-blacky search-year">2020</p>
+                            <button class="dial-btn generic-btn background-redd color-whity helv-neue-mid width-25 self-align-start">Call us</button>
+                            <button class="search-add-btn generic-btn search-generic-btn  background-redd color-whity helv-neue-mid width-25 self-align-end">12500€</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="image-row flex-display search-hover content-justify-center">
+                    <div class="image-row-section flex-display flex-column wrap width-25">
+                        <img class="search-item-img responsive-img search-responsive-img-fix" src="./images/spirit-of-big-bang-black-magic.jpg" alt="">
+                        <span class="search-item1-arrow img-arrow-fix tablet-arrow-fix relative-position background-blacky text-center mobile-arrow-fix">
+                            <a class="hot-add-arrow background-blacky " href=""><i class="color-redd fa fa-chevron-left text-cabret add-margin "></i></a>
+                            <a class="background-blacky hot-add-arrow " href=""><i class="color-redd fa fa-chevron-right text-cabret add-margin "></i></a>
+                        </span>
+                    </div>
+                    <div class="responsive-border-bottom image-row-article image-content-row flex-display flex-column content-justify-around width-60">
+                        <h5 class="helv-nue-bold color-blacky search-item-title ">Spirit of Big Bang Black Magic</h5>
+                        <p class="color-redd helv-neue-mid search-item-title">Hublot</p>
+                        <p class="helv-neue-mid color-ash search-item-article ">The HUB4700 caliber is the successor to the famous El Primero caliber - the first chronograph with an integrated style automatic winding (1969), 
+                            which was also the first mechanical chronograph equipped with a 5 Hz frequency (36’000 alt/h) allowing an accuracy of 1/10th of a second. In a perfect fusion between tradition 
+                            and innovation, this entirely skeletonized movement is now equipped with silicon regulating element ensuring avant-garde performances, precision and reliability.
+                            </p>
+                        <h6 class="helv-neue-mid color-blacky mid-font light-font search-item-article"><strong>Warranty </strong>This watch comes with the original box and warranty.
+                        </h6>
+                        <div class="flex-display content-justify-around">
+                            <p class="helv-neue-mid color-blacky search-year">2020</p>
+                            <button class="dial-btn generic-btn background-redd color-whity helv-neue-mid width-25 self-align-start">Call us</button>
+                            <button class="search-add-btn generic-btn search-generic-btn  background-redd color-whity helv-neue-mid width-25 self-align-end">28100€</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="image-row flex-display search-hover content-justify-center">
+                    <div class="image-row-section flex-display flex-column wrap width-25 ">
+                        <img class="search-item-img responsive-img search-responsive-img-fix" src="./images/omega-constellation-black-leather.jpg" alt="">
+                        <span class="search-item1-arrow img-arrow-fix tablet-arrow-fix relative-position background-blacky text-center mobile-arrow-fix">
+                            <a class="hot-add-arrow background-blacky " href=""><i class="color-redd fa fa-chevron-left text-cabret add-margin "></i></a>
+                            <a class="background-blacky hot-add-arrow " href=""><i class="color-redd fa fa-chevron-right text-cabret add-margin "></i></a>
+                        </span>
+                    </div>
+                    <div class="responsive-border-bottom image-row-article image-content-row flex-display flex-column content-justify-around width-60">
+                        <h5 class="helv-nue-bold color-blacky search-item-title ">Constellation Black Leather</h5>
+                        <p class="color-redd helv-neue-mid search-item-title">Omega</p>
+                        <p class="helv-neue-mid color-ash search-item-article">The dramatic and enduring design of the OMEGA Constellation is characterised by its famous half-moons, as well as the “claws” on the side of the case.
+                            This 41 mm 18K yellow gold model features a polished black ceramic bezel with Roman numerals in Ceragold™, a sun-brushed black dial and a date window at the 6 o'clock position. The hands, 
+                            OMEGA logo, Constellation star and facetted indexes are all in 18K white gold.</p>
+                        <h6 class="helv-neue-mid color-blacky mid-font light-font search-item-article"><strong>Warranty </strong>This watch comes with the original box and warranty.
+                        </h6>
+                        <div class="flex-display content-justify-around">
+                            <p class="helv-neue-mid color-blacky">2020</p>
+                            <button class="dial-btn generic-btn background-redd color-whity helv-neue-mid width-25 self-align-start">Call us</button>
+                            <button class="search-add-btn generic-btn search-generic-btn  background-redd color-whity helv-neue-mid width-25 self-align-end">12300€</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    
+    <div class="paginize margine">
+        <ul class="flex-display content-justify-center">
+            <li><a class="page-border" href="">Previous</a> </li>
+            <li><a class="page-border" href="">1</a></li>
+            <li><a class="page-border background-redd" href="">2</a></li>
+            <li><a class="page-border" href="">3</a></li>
+            <li><a class="page-border" href="">Next</a> </li>
+        </ul>
+    </div>
+
+    <footer class="footer overflow-fix">
+        <div class="footer-container flex-display width-autor">
+            <div class="footer-content-wrap  content-justify-between wrap ">
+                <div class="footer-brands-main overflow-fix flex-display content-justify-between wrap">
+                    <div class="flex-display flex-column footer-main-categories item-align-center wrap">
+                        <div class=" fotter-logo-fix flex-display ">
+                            <img class="logo " src="./media/wristit.png" alt="">
+                            <h2 class="brand-header helv-nue-bold color-ash">Wristy</h2>
+                        </div>
+                        <div class="color-ash helv-neue-mid company-note">
+                            <p class="footer-article footer-article-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        </div>
+                    </div>
+                    <div class="color-ash helv-neue-mid footer-content-wrap lang-country-fix footer-main-categories flex-display flex-column">
+                        <h2 class="footer-header-list color-ash gottham-bold">Categories</h2>
+                        <div class="flex-display helv-neue-mid color-ash">
+                            <ul class="width-50">
+                                <li><a href="">Hublot</a></li>
+                                <li><a href="">Bulgari</a></li>
+                                <li><a href="">Rolex</a></li>
+                                <li><a href="">Cartier</a></li>
+                                <li><a href="">Omega</a></li>
+                                <li><a href="">Bulgari</a></li>
+                                <li><a href="">Cartier</a></li>
+                            </ul>
+                            <ul class="">
+                                <li><a href="">Hublot</a></li>
+                                <li><a href="">Bulgari</a></li>
+                                <li><a href="">Rolex</a></li>
+                                <li><a href="">Cartier</a></li>
+                                <li><a href="">Omega</a></li>
+                                <li><a href="">Bulgari</a></li>
+                                <li><a href="">Cartier</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-main-nav footer-nav-fix">
+                        <h2 class="footer-header-list color-ash gottham-bold">Navigation</h2>
+                        <ul class="helv-neue-mid color-ash">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">List</a></li>
+                            <li><a href="">Category</a></li>
+                            <li><a href="">Purchase</a></li>
+                            <li><a href="">User</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-main-btn footer-main-nav lang-country-fix footer-select-position-fix flex-display item-align-center flex-column text-center">
+                        <div class="flex-display footer-main-nav lang-country-fix"> 
+                            <label class="helv-neue-mid color-ash" for="drop-down-footer1">Country</label>
+                            <select class="helv-neue-mid color-ash" name="drop-down-footer1" id="drop-down-footer1">
+                                <option value="1">Ireland</option>
+                                <option value="2">UK</option>
+                                <option value="3">Swiss</option>
+                                <option value="4">USA</option>
+                            </select>
+                        </div>
+                        <div class="flex-display footer-main-nav lang-country-fix">
+                            <label class="helv-neue-mid color-ash" for="drop-down-footer2">Language</label>
+                            <select class="helv-neue-mid   color-ash" name="drop-down-footer2" id="drop-down-footer2">
+                                <option class="footer-select-fix" value="1">British Eng</option>
+                                <option class="footer-select-fix" value="2">American Eng</option>
+                                <option class="footer-select-fix" value="3">German</option>
+                            </select>
+                        </div>
+                        <div class="flex-display footer-main-nav lang-country-fix">
+                            <label class="helv-neue-mid color-ash" for="drop-down-footer3">Currency</label>
+                            <select class="helv-neue-mid color-ash" name="drop-down-footer3" id="drop-down-footer3">
+                                <option value="1">Euro</option>
+                                <option value="2">Pounds</option>
+                                <option value="3">USD</option>
+                                <option value="4">Franc</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="the-footer overflow-fix text-center flex-display content-justify-between">
+                    <div>
+                        <h5 class="helv-light color-ash">Copyright</h5>
+                    </div>
+                    <div class="footerIcons footer-icon-fix color-ash overflow-fix">
+                        <ul class="flex-display content-justify-between">
+                            <li ><a href=""><i class="fa fa-2x fa-facebook-square"></i></a></li>
+                            <li><a href=""><i class="fa fa-2x fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fa fa-2x fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fa fa-2x fa-tumblr"></i></a></li>
+                            <li><a href=""><i class="fa fa-2x fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   </div> 
+</body>
+</html>
